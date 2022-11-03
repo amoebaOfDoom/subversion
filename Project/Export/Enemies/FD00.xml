@@ -57,7 +57,7 @@
     <ScrewAttack>0x00</ScrewAttack>
     <ChargedBeam>0x00</ChargedBeam>
     <PseudoScrew>0x00</PseudoScrew>
-    <Unused>0x02</Unused>
+    <Unused>0x03</Unused>
   </Vulnerabilities>
   <Name>HACHI4    </Name>
 </EnemyHeader>

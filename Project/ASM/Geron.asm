@@ -487,7 +487,16 @@ GeronShotAI_Frozen:
 	INC
 	STA $0FAC,X
 	JSR PlayEnemyHit
-	BRA GeronShotAI_Block
+	LDA #$0010
+    STA $0F9C,X
+
+	LDA $0F8A,x ;\
+	ORA #$0002  ;} Set hurt AI
+	STA $0F8A,x ;/
+
+    INC $0E2E
+    RTL
+	;BRA GeronShotAI_Block
 
 GeronShotAI_Kill:
 	INC $0FAA,X

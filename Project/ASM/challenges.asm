@@ -160,7 +160,7 @@ ChallengesHeader_Bottom:
 	DW $203B ; S
 	DW $FFFF
 
-Version_1_1:
+Version_Text:
 	DW $247F ; V
 	DW $246E ; E
 	DW $247B ; R
@@ -171,7 +171,7 @@ Version_1_1:
 	DW $240F ;  
 	DW $2461 ; 1
 	DW $2488 ; .
-	DW $2461 ; 1
+	DW $2462 ; 2
 	DW $FFFF
 
 
@@ -197,7 +197,7 @@ LoadChallengesItem:
 	STZ $0F96 
 	JSR $B3E2 
 
-	LDY.w #Version_1_1
+	LDY.w #Version_Text
 	LDX #$06A6
 	STZ $0F96 
 	JSR $B3E2 

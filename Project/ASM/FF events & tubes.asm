@@ -22,6 +22,7 @@ TriggerPowerBomb:
 TriggerMoved:
 ;    DW $86CA               ; Clear pre-instruction
 ;    DW $D5E6               ; Disable Samus' controls
+    DW #SetPLMArgEvent
     DW $D52C               ; Spawn tube crack enemy projectile
     DW $0030, $98D7  
     DW $0001, $9991  
@@ -30,7 +31,6 @@ TriggerMoved:
     DW $D543               ; Spawn ten tube shards and six tube released air bubbles
     DW $D536               ; 40h-frame 1-pixel BG1/BG2 diagonal earthquake
     DW $0060, $98DD  
-    DW #SetPLMArgEvent
 
 TriggerTube:
     DW $D525               ; Enable water physics

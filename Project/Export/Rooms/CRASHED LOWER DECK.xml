@@ -398,8 +398,8 @@
       <Enemies killcount="00">
         <Enemy>
           <ID>DD7F</ID>
-          <X>01C8</X>
-          <Y>0070</Y>
+          <X>0230</X>
+          <Y>0078</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
           <gfx>0000</gfx>

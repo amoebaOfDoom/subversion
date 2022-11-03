@@ -276,7 +276,7 @@
           <transparency2_B>14</transparency2_B>
           <liquidflags_C>03</liquidflags_C>
           <paletteflags>00</paletteflags>
-          <animationflags>02</animationflags>
+          <animationflags>03</animationflags>
           <paletteblend>0E</paletteblend>
         </FX1>
       </FX1s>

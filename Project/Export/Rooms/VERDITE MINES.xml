@@ -24,9 +24,9 @@
     <Door>
       <toroom area="02" index="2F" />
       <bitflag>00</bitflag>
-      <direction>01</direction>
+      <direction>05</direction>
       <tilex>E</tilex>
-      <tiley>1</tiley>
+      <tiley>6</tiley>
       <screenx>00</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>

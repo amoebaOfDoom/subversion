@@ -11,16 +11,15 @@ lorom
 org $86F057
   JSR CHECKCHARGE ;hijack point
 
-org $86EF64 ;LDA #$FFFF
-;org $86EF35
-  JSR Init ;LDA #$0000
+org $86EF57 : JSR Init ; LDA #$0001
+org $86EFCC : JSR Init ; LDA #$0001
 
 org $86FBC0
 Init:
   LDA #$0000
   STA $7EF3A4,x
   STA $7EF3EC,x
-  LDA #$FFFF
+  LDA #$0001
   RTS
 
 GTFO:

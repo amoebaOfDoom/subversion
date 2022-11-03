@@ -5,76 +5,76 @@ lorom
 
 ;BAF4 item delayed (bombs) grey right
 ;                   $C794, $BA7F, $BA4C
-org $84BABF : DW !speed, $A6E3, !speed, $A6EF, !speed, $A6FB, !delay, $A683, CloseRight
+org $84BABF : DW !speed, $A6E3, !speed, $A6EF, !speed, $A6FB, !delay, $A683
 
 ;C842 grey left		$C794, $BE70, $BE59
-org $84BEB0 : DW !speed, $A6B3, !speed, $A6BF, !speed, $A6CB, !delay, $A677, CloseLeft
+org $84BEB0 : DW !speed, $A6B3, !speed, $A6BF, !speed, $A6CB, !delay, $A677
 
 ;C848 grey right	$C794, $BED9, $BEC2
-org $84BF19 : DW !speed, $A6E3, !speed, $A6EF, !speed, $A6FB, !delay, $A683, CloseRight
+org $84BF19 : DW !speed, $A6E3, !speed, $A6EF, !speed, $A6FB, !delay, $A683
 
 ;C84E grey up		$C794, $BF42, $BF2B
-org $84BF82 : DW !speed, $A713, !speed, $A71F, !speed, $A72B, !delay, $A68F, CloseUp
+org $84BF82 : DW !speed, $A713, !speed, $A71F, !speed, $A72B, !delay, $A68F
 
 ;C854 grey down		$C794, $BFAB, $BF94
-org $84BFEB : DW !speed, $A743, !speed, $A74F, !speed, $A75B, !delay, $A69B, CloseDown
+org $84BFEB : DW !speed, $A743, !speed, $A74F, !speed, $A75B, !delay, $A69B
 
 ;C85A yellow left	$C7B1, $C014, $BFFD
-org $84C04E : DW !speed, $A773, !speed, $A77F, !speed, $A78B, !delay, $A677, CloseLeft
+org $84C04E : DW !speed, $A773, !speed, $A77F, !speed, $A78B, !delay, $A677
 
 ;C860 yellow right	$C7B1, $C077, $C060
-org $84C0B1 : DW !speed, $A7A3, !speed, $A7AF, !speed, $A7BB, !delay, $A683, CloseRight
+org $84C0B1 : DW !speed, $A7A3, !speed, $A7AF, !speed, $A7BB, !delay, $A683
 
 ;C866 yellow up		$C7B1, $C0DA, $C0C3
-org $84C110 : DW !speed, $A7D3, !speed, $A7DF, !speed, $A7EB, !delay, $A68F, CloseUp
+org $84C110 : DW !speed, $A7D3, !speed, $A7DF, !speed, $A7EB, !delay, $A68F
 
 ;C86C yellow down	$C7B1, $C139, $C122
-org $84C173 : DW !speed, $A803, !speed, $A80F, !speed, $A81B, !delay, $A69B, CloseDown
+org $84C173 : DW !speed, $A803, !speed, $A80F, !speed, $A81B, !delay, $A69B
 
 ;C872 green left	$C7B1, $C19C, $C185
-org $84C1D2 : DW !speed, $A833, !speed, $A83F, !speed, $A84B, !delay, $A677, CloseLeft
+org $84C1D2 : DW !speed, $A833, !speed, $A83F, !speed, $A84B, !delay, $A677
 
 ;C878 green right	$C7B1, $C1FB, $C1E4
-org $84C231 : DW !speed, $A863, !speed, $A86F, !speed, $A87B, !delay, $A683, CloseRight
+org $84C231 : DW !speed, $A863, !speed, $A86F, !speed, $A87B, !delay, $A683
 
 ;C87E green up		$C7B1, $C25A, $C243
-org $84C290 : DW !speed, $A893, !speed, $A89F, !speed, $A8AB, !delay, $A68F, CloseUp
+org $84C290 : DW !speed, $A893, !speed, $A89F, !speed, $A8AB, !delay, $A68F
 
 ;C884 green down	$C7B1, $C2B9, $C2A2
-org $84C2EF : DW !speed, $A8C3, !speed, $A8CF, !speed, $A8DB, !delay, $A69B, CloseDown
+org $84C2EF : DW !speed, $A8C3, !speed, $A8CF, !speed, $A8DB, !delay, $A69B
 
 ;C88A red left		$C7B1, $C318, $C301
-org $84C351 : DW !speed, $A8F3, !speed, $A8FF, !speed, $A90B, !delay, $A677, CloseLeft
+org $84C351 : DW !speed, $A8F3, !speed, $A8FF, !speed, $A90B, !delay, $A677
 
 ;C890 red right		$C7B1, $C37A, $C363
-org $84C3B3 : DW !speed, $A923, !speed, $A92F, !speed, $A93B, !delay, $A683, CloseRight
+org $84C3B3 : DW !speed, $A923, !speed, $A92F, !speed, $A93B, !delay, $A683
 
 ;C896 red up		$C7B1, $C3DC, $C3C5
-org $84C415 : DW !speed, $A953, !speed, $A95F, !speed, $A96B, !delay, $A68F, CloseUp
+org $84C415 : DW !speed, $A953, !speed, $A95F, !speed, $A96B, !delay, $A68F
 
 ;C89C red down		$C7B1, $C43E, $C327
-org $84C477 : DW !speed, $A983, !speed, $A98F, !speed, $A99B, !delay, $A69B, CloseDown
+org $84C477 : DW !speed, $A983, !speed, $A98F, !speed, $A99B, !delay, $A69B
 
 ;C8A2 blue left		$C7BB, $C489, $C49E
-org $84C48C : DW !speed, $A9BF, !speed, $A9CB, !speed, $A9D7, !delay, $A677, CloseLeft
+org $84C48C : DW !speed, $A9BF, !speed, $A9CB, !speed, $A9D7, !delay, $A677
 org $84A9BF : DW $8004, $000D, $002D, $082D, $080D, $0000
 org $84A9CB : DW $8004, $000E, $002E, $082E, $080E, $0000
 org $84A9D7 : DW $8004, $000F, $002F, $082F, $080F, $0000
 
 ;C8A8 blue right	$C7BB, $C4BA, $C4CF
-org $84C4BD : DW !speed, $A9FB, !speed, $AA07, !speed, $AA13, !delay, $A683, CloseRight
+org $84C4BD : DW !speed, $A9FB, !speed, $AA07, !speed, $AA13, !delay, $A683
 org $84A9FB : DW $8004, $040D, $042D, $0C2D, $0C0D, $0000
 org $84AA07 : DW $8004, $040E, $042E, $0C2E, $0C0E, $0000
 org $84AA13 : DW $8004, $040F, $042F, $0C2F, $0C0F, $0000
 
 ;C8AE blue up		$C7BB, $C4EB, $C500
-org $84C4EE : DW !speed, $AA37, !speed, $AA43, !speed, $AA4F, !delay, $A68F, CloseUp
+org $84C4EE : DW !speed, $AA37, !speed, $AA43, !speed, $AA4F, !delay, $A68F
 org $84AA37 : DW $0004, $043D, $043C, $003C, $003D, $0000
 org $84AA43 : DW $0004, $041F, $041E, $001E, $001F, $0000
 org $84AA4F : DW $0004, $043F, $043E, $003E, $003F, $0000
 
 ;C8B4 blue down		$C7BB, $C51C, $C531
-org $84C51F : DW !speed, $AA73, !speed, $AA7F, !speed, $AA8B, !delay, $A69B, CloseDown
+org $84C51F : DW !speed, $AA73, !speed, $AA7F, !speed, $AA8B, !delay, $A69B
 org $84AA73 : DW $0004, $0C3D, $0C3C, $083C, $083D, $0000
 org $84AA7F : DW $0004, $0C1F, $0C1E, $081E, $081F, $0000
 org $84AA8B : DW $0004, $0C3F, $0C3E, $083E, $083F, $0000

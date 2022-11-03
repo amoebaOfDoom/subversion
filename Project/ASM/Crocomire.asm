@@ -61,7 +61,7 @@ org $A4997A
 org $A48E9F
   JMP $8EA7
 
-org $A4FCB0 ;free space
+org $A4FCC0 ;free space
 LedgeCheck:
   ;JSL $A48D5E ;Crack/collapse bridge
   LDA $0F7A ;X position

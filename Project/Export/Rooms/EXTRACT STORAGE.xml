@@ -134,7 +134,7 @@
           <type>FB00</type>
           <x>0A</x>
           <y>06</y>
-          <arg>8090</arg>
+          <arg>80A0</arg>
         </PLM>
         <PLM>
           <type>FF70</type>
@@ -245,7 +245,7 @@
           <type>FB00</type>
           <x>0A</x>
           <y>06</y>
-          <arg>8090</arg>
+          <arg>80A0</arg>
         </PLM>
         <PLM>
           <type>FF70</type>

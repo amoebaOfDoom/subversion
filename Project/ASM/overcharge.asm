@@ -68,7 +68,7 @@ ResetSamusHyperGlow:
 	AND #$001E
 	RTS
 
-org $80D800
+org $80D830
 CheckActiveHyper:
 ; BRANCH_FIRE
 	LDA !hyper_active
@@ -176,7 +176,19 @@ HyperPalettes:
 	DW $D906, $D91A, $D92E, $D942, $D956, $D96A, $D97E, $D992
 	DW $D9A6, $D9BA, $0000, $0000, $0000, $0000, $0000, $0000
 
+GetHyperDamage:
+	LDA $09A6
+	BIT #$2000
+	BEQ +
+	LDA.w #2000
+	RTL
++
+	LDA.w #1000
+	RTL
 
+
+org $90BD22
+	JSL GetHyperDamage ;LDA $9383BF
 
 
 ; Item definition, referenced by the files in the PLMs directory.

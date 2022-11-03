@@ -19,7 +19,7 @@ org $918A43
 	; LDA #$0014             ;\
 	; STA $09C2  [$7E:09C2]  ;} Samus health = 20
 
-org $80D7F0
+org $80D820
 ApplyEnvironmentalDamage:
 	LDA $09C2
 	SEC : SBC $0A50

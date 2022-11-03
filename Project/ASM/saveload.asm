@@ -167,7 +167,7 @@ org $81B3B6
 	JSR ClearCurrentMap
 org $81FC50
 ClearCurrentMap:
-    LDA #$0000
+  LDA #$0000
 -
 	STA $7E07F7,X
 	INX
@@ -175,4 +175,10 @@ ClearCurrentMap:
 	CPX #$0100
 	BMI -
 	LDX #$0000
+	RTS
+
+; give area map
+org $8FFFF0
+	LDA #$00FF
+	STA $0789
 	RTS

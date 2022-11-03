@@ -1096,6 +1096,16 @@ LavaPaletteTable:
 print pc
 warnpc $90FFFF
 
+org $88E320 
+  BRA VariaOvalPickUpContinue
+org $88E332
+VariaOvalPickUpContinue:
+
+org $88E361
+  BRA GravityOvalPickUpContinue
+org $88E373
+GravityOvalPickUpContinue:
+
 ; --------------------------------------------------------------
 ; Item definition, referenced by the files in the PLMs directory.
 org $89B240 ; graphics

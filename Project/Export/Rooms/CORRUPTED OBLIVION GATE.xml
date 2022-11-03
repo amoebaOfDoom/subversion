@@ -35,7 +35,7 @@
   </Doors>
   <States>
     <State condition="E612">
-      <Arg>06</Arg>
+      <Arg>51</Arg>
       <LevelData Width="2" Height="2">
         <Layer1>
           <Screen X="0" Y="0">
@@ -549,7 +549,7 @@
           <paletteblend>00</paletteblend>
         </FX1>
       </FX1s>
-      <Enemies killcount="00">
+      <Enemies killcount="01">
         <Enemy>
           <ID>ED3F</ID>
           <X>0128</X>
@@ -590,7 +590,7 @@
           <type>DB44</type>
           <x>04</x>
           <y>00</y>
-          <arg>0006</arg>
+          <arg>0051</arg>
         </PLM>
       </PLMs>
       <BGData />

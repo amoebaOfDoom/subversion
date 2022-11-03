@@ -90,6 +90,8 @@ org $80D600
 DrawShipSprite:
 	LDA $079F ; area
 	BEQ .crateria
+	CMP #$0003
+	BEQ .lomyr
 	CMP #$0006
 	BNE .return
 
@@ -105,6 +107,25 @@ DrawShipSprite:
 	SBC $B3
 	TAY
 	BRA .draw
+
+.lomyr
+	LDA #$001D
+	JSL $808233 ; test event
+	BCC .return
+
+	LDA #$0E00 ; set palette
+	STA $03
+	LDA #$016C ; x
+	SEC
+	SBC $B1
+	TAX
+	LDA #$004C ; y
+	SEC
+	SBC $B3
+	TAY
+	LDA #$0091 ; sprite
+	JSL DrawElevatorSprite
+	BRA .return
 
 .crateria
 	LDA #$001D
@@ -377,7 +398,7 @@ CheckElevatorBit:
 warnpc $82C569 ; sprite pointers
 
 
-org $97F000
+org $97EFF0
 DrawElevatorSprite:
 	CMP #$0080
 	BPL +
@@ -414,6 +435,7 @@ SpriteList:
 	DW #ENERGY_PLANT              ; Sprite #8E
 	DW #SUZI_ISLAND               ; Sprite #8F
 	DW #SKY_TEMPLE                ; Sprite #90
+	DW #GFS_DAPHNE                ; Sprite #91
 ;warnpc $82C749
 
 
@@ -744,6 +766,18 @@ SKY_TEMPLE:
 	DW 18 : DB 7 : DW !tile_L
 	DW 22 : DB 7 : DW !tile_E
 
+GFS_DAPHNE:
+	DW 9
+	DW 00 : DB 0 : DW !tile_G
+	DW 05 : DB 0 : DW !tile_F
+	DW 09 : DB 0 : DW !tile_S
+
+	DW 15 : DB 0 : DW !tile_D
+	DW 19 : DB 0 : DW !tile_A
+	DW 23 : DB 0 : DW !tile_P
+	DW 27 : DB 0 : DW !tile_H
+	DW 31 : DB 0 : DW !tile_N
+	DW 36 : DB 0 : DW !tile_E
 
 
 print pc

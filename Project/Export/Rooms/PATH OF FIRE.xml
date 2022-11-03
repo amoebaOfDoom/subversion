@@ -13,7 +13,7 @@
     <Door>
       <toroom area="02" index="72" />
       <bitflag>00</bitflag>
-      <direction>01</direction>
+      <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
       <screenx>01</screenx>
