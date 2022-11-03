@@ -32,7 +32,7 @@ CheckProcessTimer:
   BCC ProcessTimer
   LDA #$E90E
   STA $0A5A
-  PLA : PLA ; pop return address
+  PLA ; pop return address
   RTS
 ProcessTimer:
   JSL $809DE7

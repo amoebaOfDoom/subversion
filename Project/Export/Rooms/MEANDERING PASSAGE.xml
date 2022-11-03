@@ -57,7 +57,7 @@
     <Door>
       <toroom area="00" index="09" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
+      <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>

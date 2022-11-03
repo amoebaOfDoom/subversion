@@ -91,7 +91,7 @@ org $8B9B68
 	RTS
 
 
-org $81FC20
+org $81FC40
 InitPPULong:
 	JSR $8DBA ; Map VRAM for menu
 	RTL

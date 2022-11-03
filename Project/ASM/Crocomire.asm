@@ -94,6 +94,9 @@ SpeedCheck:
   LDA $0FAA
   ORA #$4000
   STA $0FAA
+  LDA #$0004 ; knockback
+  STA $18AA
+  STZ $0A54
   RTS
 SpeedCheck_Fast:
 LDA #$0001

@@ -484,9 +484,9 @@
     <Space start="81B3BF" end="81B3C1" />
     <Space start="81EF20" end="81F194" />
     <Space start="81FA00" end="81FA93" />
-    <Space start="81FAA0" end="81FC18" />
-    <Space start="81FC20" end="81FC23" />
-    <Space start="81FC30" end="81FC41" />
+    <Space start="81FAA0" end="81FC3C" />
+    <Space start="81FC40" end="81FC43" />
+    <Space start="81FC50" end="81FC61" />
     <Space start="82801D" end="82804D" />
     <Space start="82805F" end="828062" />
     <Space start="8280BF" end="8280C2" />
@@ -1018,7 +1018,7 @@
     <Space start="90F810" end="90F817" />
     <Space start="90F81A" end="90F83E" />
     <Space start="90F840" end="90FCC4" />
-    <Space start="90FCD0" end="90FCE6" />
+    <Space start="90FCD0" end="90FCE5" />
     <Space start="90FD00" end="90FE46" />
     <Space start="90FE80" end="90FF33" />
     <Space start="90FFA0" end="90FFC2" />
@@ -1225,7 +1225,7 @@
     <Space start="A4CBC5" end="A4CC10" />
     <Space start="A4F681" end="A4F683" />
     <Space start="A4F6D0" end="A4FCAC" />
-    <Space start="A4FCB0" end="A4FD5D" />
+    <Space start="A4FCB0" end="A4FD66" />
     <Space start="A586F0" end="A586F6" />
     <Space start="A587AD" end="A587AF" />
     <Space start="A587B6" end="A587BC" />
@@ -1497,7 +1497,7 @@
     <Space start="B3F1A0" end="B3F2A2" />
     <Space start="B3F2B0" end="B3F2C1" />
     <Space start="B6E000" end="B6EFFF" />
-    <Space start="BC8000" end="BCDC2A" />
+    <Space start="BC8000" end="BCDC27" />
     <Space start="E08000" end="E2AFFF" />
   </ASMUsedSpaceBankAny>
   <PLMBank>

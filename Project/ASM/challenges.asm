@@ -160,6 +160,21 @@ ChallengesHeader_Bottom:
 	DW $203B ; S
 	DW $FFFF
 
+Version_1_1:
+	DW $247F ; V
+	DW $246E ; E
+	DW $247B ; R
+	DW $247C ; S
+	DW $2472 ; I
+	DW $2478 ; O
+	DW $2477 ; N
+	DW $240F ;  
+	DW $2461 ; 1
+	DW $2488 ; .
+	DW $2461 ; 1
+	DW $FFFF
+
+
 GotoChallengesPage:
 	LDA #$0038   ;\
 	JSL $809049  ;} Queue sound 37h, sound library 1, max queued sounds allowed = 6 (moved cursor)
@@ -179,6 +194,11 @@ LoadChallengesItem:
 +
 
 	LDX #$0448
+	STZ $0F96 
+	JSR $B3E2 
+
+	LDY.w #Version_1_1
+	LDX #$06A6
 	STZ $0F96 
 	JSR $B3E2 
 

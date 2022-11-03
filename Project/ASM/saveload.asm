@@ -165,7 +165,7 @@ LoadGameExtra:
 
 org $81B3B6
 	JSR ClearCurrentMap
-org $81FC30
+org $81FC50
 ClearCurrentMap:
     LDA #$0000
 -
