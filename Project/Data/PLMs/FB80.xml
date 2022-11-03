@@ -1,0 +1,38 @@
+<PLMInfo>
+  <Name>Area Name</Name>
+  <Properties>
+  	<Property>
+	  <Name>Area Index</Name>
+	  <Description>Area name index to display.</Description>
+	  <Mask>0xFFFF</Mask>
+	  <NameValues>
+      <NameValue Value="0" Name="SURFACE" />
+      <NameValue Value="1" Name="OCEAN DEPTHS" />
+      <NameValue Value="2" Name="VULNAR CAVES" />
+      <NameValue Value="3" Name="SERVICE SECTOR" />
+      <NameValue Value="4" Name="VULNAR PEAKS" />
+      <NameValue Value="5" Name="SPORE FIELD" />
+      <NameValue Value="6" Name="THE HIVE" />
+      <NameValue Value="7" Name="MAGMA LAKE" />
+      <NameValue Value="8" Name="VULNAR ROOT" />
+      <NameValue Value="9" Name="SPACE PORT" />
+      <NameValue Value="10" Name="CARGO SHIP" />
+      <NameValue Value="11" Name="GFS DAPHNE" />
+      <NameValue Value="12" Name="PIRATE RESEARCH LAB" />
+      <NameValue Value="13" Name="CARGO TRANSIT RAIL" />
+      <NameValue Value="14" Name="VERDITE MINE" />
+      <NameValue Value="15" Name="GEOTHERMAL ENERGY PLANT" />
+      <NameValue Value="16" Name="WAR TEMPLE" />
+      <NameValue Value="17" Name="LIFE TEMPLE" />
+      <NameValue Value="18" Name="FIRE TEMPLE" />
+      <NameValue Value="19" Name="SKY TEMPLE" />
+      <NameValue Value="20" Name="OCEAN FLOOR" />
+      <NameValue Value="21" Name="JUNGLE'S HEART" />
+      <NameValue Value="22" Name="BLANK" />
+      <NameValue Value="23" Name="SUZI RUINS" />
+      <NameValue Value="24" Name="SUZI REEF" />
+      <NameValue Value="25" Name="THUNDER TEMPLE" />
+	  </NameValues>
+	</Property>
+  </Properties>
+</PLMInfo>

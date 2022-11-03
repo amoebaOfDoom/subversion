@@ -1,0 +1,23 @@
+<PLMInfo>
+  <Name>Dark Room (Color)</Name>
+  <Properties>
+  	<Property>
+	  <Name>Red</Name>
+	  <Description>Red tint to the room glow.</Description>
+	  <Mask>0x001F</Mask>
+	</Property>
+  	<Property>
+	  <Name>Green</Name>
+	  <Description>Green tint to the room glow.</Description>
+	  <Mask>0x03E0</Mask>
+	</Property>
+  	<Property>
+	  <Name>Blue</Name>
+	  <Description>Blue tint to the room glow.</Description>
+	  <Mask>0x7C00</Mask>
+	</Property>
+  </Properties>  
+</PLMInfo>
+
+
+

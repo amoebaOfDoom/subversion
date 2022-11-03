@@ -1,0 +1,33 @@
+<EnemyInfo>
+  <Name>Multigate</Name>
+  <Description>
+    Put multiples of this enemy in a row in the enemy list with the same target PLM to require multiple active simultaneously.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Direction of teh gate control.</Description>
+      <Mask>0x0003</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Left"/>
+        <NameValue Value="1" Name="Right"/>
+        <NameValue Value="2" Name="Up"/>
+        <NameValue Value="3" Name="Down"/>
+      </NameValues>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Target PLM</Name>
+      <Description>PLM number (in the room PLM list) to activate.</Description>
+      <Mask>0x0FFF</Mask>
+    </Property>
+  </Speed2>
+  <Tilemap>
+    <Property>
+      <Name>Sustain</Name>
+      <Description>Frames gate remains active before reseting</Description>
+      <Mask>0xFFFF</Mask>
+    </Property>
+  </Tilemap>
+</EnemyInfo>

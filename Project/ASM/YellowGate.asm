@@ -1,0 +1,21 @@
+lorom
+
+org $84A613
+  DW $0001, $80D6
+  DB $FF, $00
+  DW $0001, $C0DC
+  DW $0000
+
+org $84A61F
+  DW $0002, $80D6, $C4DC
+  DW $0000
+
+org $84A663
+  DW $0001, $88D6
+  DB $FF, $00
+  DW $0001, $C8DC
+  DW $0000
+
+org $84A66F
+  DW $0002, $88D6, $CCDC
+  DW $0000

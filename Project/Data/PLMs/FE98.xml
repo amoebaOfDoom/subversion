@@ -1,0 +1,20 @@
+<PLMInfo>
+  <Name>PLM Trigger</Name>
+  <Properties>
+  	<Property>
+		  <Name>PLM ID</Name>
+		  <Description>PLM index of other PLM to trigger when activated. Works on doors, shutter gates, and lasers.</Description>
+		  <Mask>0x00FF</Mask>
+		</Property>
+		<Property>
+		  <Name>Button Triggered</Name>
+		  <Description>Does not queue multiple triggers, so that shooting a button won't trigger multiple times.</Description>
+		  <Mask>0x8000</Mask>
+		</Property>
+		<Property>
+		  <Name>Single Use</Name>
+		  <Description>Only triggers a single time.</Description>
+		  <Mask>0x4000</Mask>
+		</Property>
+  </Properties>  
+</PLMInfo>

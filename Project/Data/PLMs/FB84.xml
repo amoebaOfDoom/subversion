@@ -1,0 +1,22 @@
+<PLMInfo>
+  <Name>Name Special GFX</Name>
+  <Properties>
+  	<Property>
+	  <Name>Special Index</Name>
+	  <Description>Special handler index.</Description>
+	  <Mask>0xFFFF</Mask>
+	  <NameValues>
+			<NameValue Value="0" Name="Reload" />
+			<NameValue Value="1" Name="Ridley" />
+			<NameValue Value="2" Name="High Section" />
+			<NameValue Value="3" Name="No Draw" />
+			<NameValue Value="4" Name="Reload On Leave" />
+			<NameValue Value="5" Name="Crocomire" />
+			<NameValue Value="6" Name="Draygon" />
+			<NameValue Value="7" Name="Ceres Ridley" />
+	  </NameValues>
+	</Property>
+  </Properties>
+</PLMInfo>
+
+

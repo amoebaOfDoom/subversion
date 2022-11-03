@@ -1,0 +1,20 @@
+<PLMInfo>
+  <Name>Log Event Trigger</Name>
+  <Properties>
+		<Property>
+		  <Name>Log Event ID</Name>
+		  <Description>Event ID to trigger. This is equivelent to the base event ID + 0x100. See pause_screen.asm for log event lists. Log event ids should always be even.</Description>
+		  <Mask>0x00FF</Mask>
+		</Property>
+		<Property>
+		  <Name>Delay</Name>
+		  <Description>Number of seconds to wait before triggering the event. If set to 0, the delay timer will not run. The even can always be triggered when Samus touched the PLM.</Description>
+		  <Mask>0x7F00</Mask>
+		</Property>
+		<Property>
+		  <Name>Notification</Name>
+		  <Description>If set true, the HUD notification is triggered.</Description>
+		  <Mask>0x8000</Mask>
+		</Property>
+  </Properties>  
+</PLMInfo>

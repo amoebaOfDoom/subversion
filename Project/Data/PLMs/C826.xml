@@ -1,0 +1,29 @@
+<PLMInfo>
+  <Name>Shutter Gate</Name>
+  <Properties>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Direction of the shutter.</Description>
+      <Mask>0x8000</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Down"/>
+        <NameValue Value="1" Name="Up"/>
+      </NameValues>
+    </Property> 
+    <Property>
+      <Name>Open</Name>
+      <Description>Is initially open.</Description>
+      <Mask>0x4000</Mask>
+    </Property> 
+    <Property>
+      <Name>Speed</Name>
+      <Description>Speed to move in pixels/frame.</Description>
+      <Mask>0x0F00</Mask>
+    </Property> 
+    <Property>
+      <Name>Size</Name>
+      <Description>Size in pixels of the shutter.</Description>
+      <Mask>0x00FF</Mask>
+    </Property> 
+  </Properties>
+</PLMInfo>

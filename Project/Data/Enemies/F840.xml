@@ -1,0 +1,26 @@
+<EnemyInfo>
+  <Name>Zebitite 2 Horizontal</Name>
+  <Description>
+    Solid enemy that spawns sparks. Requires enemy $EA3F (SPA) to be added to the room's enemy list if sparks are spawned
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Spawn top spark</Name>
+      <Description>Where to spawn sparks.</Description>
+      <Mask>0x0001</Mask>
+    </Property>
+    <Property>
+      <Name>Spawn bottom spark</Name>
+      <Description>Where to spawn sparks.</Description>
+      <Mask>0x0002</Mask>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Event ID</Name>
+      <Description>Event ID (+1) to store rotation state. 0000 to disable event bit check.</Description>
+      <Mask>0xFFFF</Mask>
+    </Property>
+  </Speed2>
+  <Tilemap />
+</EnemyInfo>

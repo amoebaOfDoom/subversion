@@ -1,0 +1,27 @@
+<EnemyInfo>
+  <Name>Grapple gate</Name>
+  <Description>
+    Gate that's activated by grappling onto it
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Distance</Name>
+      <Description>Distance to sink when grappled (pixels).</Description>
+      <Mask>0xFFFF</Mask>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Target PLM</Name>
+      <Description>PLM number (in the room PLM list) to activate.</Description>
+      <Mask>0x0FFF</Mask>
+    </Property>
+  </Speed2>
+  <Tilemap>
+    <Property>
+      <Name>Enable trigger</Name>
+      <Description>What should happen when fully descended</Description>
+      <Mask>0x1000</Mask>
+    </Property>
+  </Tilemap>
+</EnemyInfo>

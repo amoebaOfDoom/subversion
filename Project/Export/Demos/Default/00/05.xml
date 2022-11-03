@@ -1,0 +1,69 @@
+<DemoData>
+  <RoomData>
+    <Room Area="02" Id="6B" />
+    <Door Area="02" Id="69" DoorIndex="02" />
+    <ScreenX>01</ScreenX>
+    <ScreenY>00</ScreenY>
+    <TileX>0</TileX>
+    <TileY>0</TileY>
+    <SamusX>001C</SamusX>
+    <SamusY>008B</SamusY>
+    <Frames>027C</Frames>
+    <RoomSetupCode>8924</RoomSetupCode>
+  </RoomData>
+  <MovieData>
+    <EquipmentFlags>2506</EquipmentFlags>
+    <MissileCount>0064</MissileCount>
+    <SuperMissileCount>0001</SuperMissileCount>
+    <PowerBombCount>0001</PowerBombCount>
+    <HealthCount>01F3</HealthCount>
+    <CollectedBeamFlags>100F</CollectedBeamFlags>
+    <EquippedBeamFlags>0000</EquippedBeamFlags>
+    <MovieInstructions InitCode="83BF" PreInstructionCode="8A9B">
+      <MovieInstruction Frames="0003" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0200" NewInput="0200" />
+      <MovieInstruction Frames="001B" CurrentInput="0200" NewInput="0000" />
+      <MovieInstruction Frames="0009" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0100" NewInput="0100" />
+      <MovieInstruction Frames="0013" CurrentInput="0100" NewInput="0000" />
+      <MovieInstruction Frames="0017" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="2000" NewInput="2000" />
+      <MovieInstruction Frames="000A" CurrentInput="2000" NewInput="0000" />
+      <MovieInstruction Frames="0022" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="8000" NewInput="8000" />
+      <MovieInstruction Frames="0004" CurrentInput="8000" NewInput="0000" />
+      <MovieInstruction Frames="0012" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="0006" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="0012" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="0008" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="0019" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="0007" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="0019" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="2000" NewInput="2000" />
+      <MovieInstruction Frames="0008" CurrentInput="2000" NewInput="0000" />
+      <MovieInstruction Frames="0013" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="0008" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="0033" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="000A" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="001C" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="2000" NewInput="2000" />
+      <MovieInstruction Frames="000A" CurrentInput="2000" NewInput="0000" />
+      <MovieInstruction Frames="0011" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0400" NewInput="0400" />
+      <MovieInstruction Frames="0004" CurrentInput="0400" NewInput="0000" />
+      <MovieInstruction Frames="0008" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0400" NewInput="0400" />
+      <MovieInstruction Frames="0005" CurrentInput="0400" NewInput="0000" />
+      <MovieInstruction Frames="000A" CurrentInput="0000" NewInput="0000" />
+      <MovieInstruction Frames="0001" CurrentInput="0040" NewInput="0040" />
+      <MovieInstruction Frames="0009" CurrentInput="0040" NewInput="0000" />
+      <MovieInstruction Frames="00C8" CurrentInput="0000" NewInput="0000" />
+    </MovieInstructions>
+  </MovieData>
+  <Setup>8A49</Setup>
+</DemoData>

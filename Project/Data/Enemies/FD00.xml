@@ -1,0 +1,15 @@
+<EnemyInfo>
+  <Name>Ki-Hunter (Metal)</Name>
+  <Description>
+    Ki-Hunters are a flying enemy that loses it wings if it sustains too much damage. When it becomes flightless, it hops around spitting acid. A wing enemy must immediately follow this enemy in the enemy list, but it should be ommitted in the enemy type list. The wing enemy must be included even if the Ki-Hunter is initially flightless.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Flightless</Name>
+      <Description>Ki-Hunter starts without its wings.</Description>
+      <Mask>0x8000</Mask>
+    </Property>
+  </Speed1>
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>

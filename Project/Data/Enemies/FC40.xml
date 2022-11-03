@@ -1,0 +1,53 @@
+<EnemyInfo>
+  <Name>Super Puffer</Name>
+  <Description>
+    Floating puffer enemy that accelerates towards samus and goes through walls.
+
+    The Max Speed table is at $A8:D885. It is a list of 8 words with the max speed in pixels.
+
+    The acceleration delay table is at $A8:D895. It is a list of 13 pairs of words. The first is the acceleration divider, the second is the deceleration divider.
+
+    The base acceleration value is 0x18, but it can be editted at $A8:D9D4 and $A8:D95D.
+
+    When shot, the puffer is knocked back at a constant speed which can be set at $A8:DB5B.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Acceleration</Name>
+      <Description>The divider used for the acceleration speed. Normally "Accel 1/6, Decel 1/2" in vanilla.</Description>
+      <Mask>0xFFFF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Accel 1/3, Decel 1/1"/>
+        <NameValue Value="1" Name="Accel 1/4, Decel 1/1"/>
+        <NameValue Value="2" Name="Accel 1/5, Decel 1/2"/>
+        <NameValue Value="3" Name="Accel 1/6, Decel 1/2"/>
+        <NameValue Value="4" Name="Accel 1/7, Decel 1/2"/>
+        <NameValue Value="5" Name="Accel 1/8, Decel 1/3"/>
+        <NameValue Value="6" Name="Accel 1/9, Decel 1/3"/>
+        <NameValue Value="7" Name="Accel 1/10, Decel 1/4"/>
+        <NameValue Value="8" Name="Accel 1/11, Decel 1/4"/>
+        <NameValue Value="9" Name="Accel 1/12, Decel 1/5"/>
+        <NameValue Value="10" Name="Accel 1/13, Decel 1/5"/>
+        <NameValue Value="11" Name="Accel 1/14, Decel 1/6"/>
+        <NameValue Value="12" Name="Accel 1/15, Decel 1/6"/>
+      </NameValues>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Max Speed</Name>
+      <Description>Max move speed that it will accelerate to. Normally "7 px/frame" in vanilla.</Description>
+      <Mask>0x1FFF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="4 px/frame"/>
+        <NameValue Value="1" Name="5 px/frame"/>
+        <NameValue Value="2" Name="6 px/frame"/>
+        <NameValue Value="3" Name="7 px/frame"/>
+        <NameValue Value="4" Name="8 px/frame"/>
+        <NameValue Value="5" Name="9 px/frame"/>
+        <NameValue Value="6" Name="10 px/frame"/>
+      </NameValues>
+    </Property>    
+  </Speed2>
+  <Tilemap />
+</EnemyInfo>

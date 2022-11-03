@@ -1,0 +1,15 @@
+<PLMInfo>
+  <Name>Item Area Trigger</Name>
+  <Properties>
+  	<Property>
+		  <Name>Item ID</Name>
+		  <Description>Item ID to set.</Description>
+		  <Mask>0x00FF</Mask>
+		</Property>
+  	<Property>
+		  <Name>Area index</Name>
+		  <Description>Area index to increment item count for.</Description>
+		  <Mask>0x0700</Mask>
+		</Property>
+  </Properties>
+</PLMInfo>

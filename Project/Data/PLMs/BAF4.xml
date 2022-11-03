@@ -1,0 +1,38 @@
+<PLMInfo>
+  <Name>Grey Door (Bomb Torizo)</Name>
+  <Properties>
+  	<Property>
+	  <Name>Always Respawn</Name>
+	  <Description>Ignores the door ID and door always respawns on room load.</Description>
+	  <Mask>0x8000</Mask>
+	</Property>
+  	<Property>
+	  <Name>Close Condition</Name>
+	  <Description>What causes the door to close.</Description>
+	  <Mask>0x6000</Mask>
+	  <NameValues>
+	  	<NameValue Value="0" Name="Aquired Bombs"/>
+	  	<NameValue Value="1" Name="Hyperbeam Active"/>
+	  </NameValues>
+	</Property>	
+  	<Property>
+	  <Name>Open Condition</Name>
+	  <Description>What causes the door to open.</Description>
+	  <Mask>0x1C00</Mask>
+	  <NameValues>
+	  	<NameValue Value="0" Name="Main boss for the area is dead."/>
+	  	<NameValue Value="1" Name="Mini boss for the area is dead."/>
+	  	<NameValue Value="2" Name="Torizo for the area is dead."/>
+	  	<NameValue Value="3" Name="Enemies Dead matches Enemies Needed."/>
+	  	<NameValue Value="4" Name="Always closed."/>
+	  	<NameValue Value="5" Name="Delay in Tourian Gate room."/>
+	  	<NameValue Value="6" Name="Eticoons/Dachora saved?"/>
+	  </NameValues>
+	</Property>
+  	<Property>
+	  <Name>Door ID</Name>
+	  <Description>Unique ID for the door to save that it had been opened.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>	
+  </Properties>
+</PLMInfo>

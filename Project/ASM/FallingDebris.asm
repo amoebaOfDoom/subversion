@@ -1,0 +1,76 @@
+lorom
+
+;free space
+org $A6FF80
+  LDX $0E54
+  LDA $0F86,X
+  ORA #$0580
+  STA $0F86,X
+  LDA #$8B2D
+  STA $0F92,X
+  RTL
+
+org $A6FF94
+  LDX $0E54
+  DEC $07E1
+  BPL +
+  LDA #$0008
+  STA $07E1
+  TXA
+  EOR $05E5 ;random number
+  BIT #$03C0
+  BNE +
+  LDY #$9734 ;light
+  ;LDA $05E5
+  LSR
+  BCC ++
+  LDY #$9742 ;dark
+++
+  ;AND #$001E
+  ;TAX
+  ;LDA $8FE551,X
+  LSR
+  AND #$000F
+  ASL
+  BCC +++
+  EOR #$FFFF
+  INC
++++
+  CLC
+  ADC $0F7A,X
+  JSL $868027 ;JSL $868097
++
+  RTL
+
+org $8696DC 
+  LDA #$0000
+  STA $1AFF,Y
+  STA $1B23,Y
+  STA $1AB7,Y
+  ;LDA #$0E00
+  ;STA $19BB,Y
+  PHX
+  LDX $0E54
+  LDA $1993
+  STA $1A4B,Y
+  LDA $0F7E,X
+  STA $1A93,Y
+  PLX
+  ;LDA $1993
+  ;STA $1A4B,Y
+  ;LDA #$002A
+  ;STA $1A93,Y
+  LDA #$0010
+  STA $1ADB,Y
+  RTS
+
+
+org $869734
+  DW $96DC, $9701, $9750, $0808, $0028, $0000, $84FC
+  DW $96DC, $9701, $9756, $0808, $0028, $0000, $84FC
+
+org $8D8ABF
+  DW $0001
+  DW $C3F8 : DB $F8 : DW $210A
+  DW $0001
+  DW $C3F8 : DB $F8 : DW $210C

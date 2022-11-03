@@ -1,0 +1,35 @@
+<EnemyInfo>
+  <Name>Spike Block</Name>
+  <Description>
+    Imitates the behavior and appearence of spike blocks from Legend of Zelda: A Link to the Past, but with more variations.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>X Speed</Name>
+      <Description>Speed of X movement in .5px/frame (can be negative)</Description>
+      <Mask>0xF000</Mask>
+    </Property>
+    <Property>
+      <Name>Y Speed</Name>
+      <Description>Speed of Y movement in .5px/frame (can be negative)</Description>
+      <Mask>0x0F00</Mask>
+    </Property>
+    <Property>
+      <Name>Delay</Name>
+      <Description>Delay when spike hits a wall before moving away again (pixels)</Description>
+      <Mask>0x00FF</Mask>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Distance</Name>
+      <Description>Distance spike can be moved by shooting (pixels)</Description>
+      <Mask>0xFF00</Mask>
+    </Property>
+    <Property>
+      <Name>Stun time</Name>
+      <Description>Pause timer when shot (frames)</Description>
+      <Mask>0x00FF</Mask>
+    </Property>
+  </Speed2>
+</EnemyInfo>

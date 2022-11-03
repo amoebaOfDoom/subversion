@@ -1,0 +1,14 @@
+lorom
+
+; game over text
+; DESTROY THE PIRATE LAB!
+; FIND THE METROID LARVA!
+org $819304            
+	DW $006D, $006E, $007C, $007D, $007B, $0078, $0082
+	DW $000F
+	DW $007D, $0071, $006E
+	DW $000F
+	DW $0079, $0072, $007B, $006A, $007D, $006E
+	DW $000F
+	DW $0075, $006A, $006B
+	DW $0084, $FFFF

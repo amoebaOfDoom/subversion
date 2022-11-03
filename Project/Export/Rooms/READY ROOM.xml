@@ -1,0 +1,138 @@
+<Room>
+  <Saves />
+  <index>1F</index>
+  <area>06</area>
+  <x>1A</x>
+  <y>0F</y>
+  <width>01</width>
+  <height>01</height>
+  <upscroll>70</upscroll>
+  <dnscroll>70</dnscroll>
+  <specialGFX>00</specialGFX>
+  <Doors>
+    <Door>
+      <toroom area="06" index="1E" />
+      <bitflag>00</bitflag>
+      <direction>05</direction>
+      <tilex>E</tilex>
+      <tiley>6</tiley>
+      <screenx>01</screenx>
+      <screeny>02</screeny>
+      <distance>8000</distance>
+      <doorcode>0000</doorcode>
+    </Door>
+  </Doors>
+  <States>
+    <State condition="default">
+      <LevelData Width="1" Height="1">
+        <Layer1>
+          <Screen X="0" Y="0">
+        832C 832C 832C 832C 832C 832C 832C 8569 8568 8A8F 8168 8169 832C 832C 832C 832C
+        832C 832C 832C 832C 832C 832C 832C 8569 8568 8A8F 8168 8169 832C 832C 832C 832C
+        832C 832C 832C 832C 856D 8109 8109 898E 8594 8A8F 8168 8D8E 8109 816C 816D 832C
+        832C 832C 832C 832C 858D 8DB2 85AD 896E 896F 8A8F 8D6F 8D6E 8129 818C 818D 832C
+        856D 856C 856C 8109 898E 85EF 15CD 00FF 00FF 8A2F 00FF 0226 00FF 8168 8169 832C
+        858D 858C 8129 896E 896E 896F 00FF 00FF 00FF 00FF 00FF 0267 00FF 8168 8169 832C
+        9440 C40C 04FF 0226 00FF 00FF 00FF 00FF 00FF 00FF 00FF 0226 00FF 8168 8169 832C
+        9460 D42C 04FF 0246 00FF 00FF 00FF 00FF 00FF 00FF 00FF 0246 00FF 8168 8169 832C
+        9C60 DC2C 04FF 0266 00FF 00FF 00FF 00FF 00FF 00FF 00FF 0266 00FF 8168 8169 832C
+        9C40 DC0C 04FF 0286 00FF 00FF 00FF 00FF 00FF 00FF 00FF 0286 00FF 8168 8169 832C
+        8D8D 8D8C 856E 856E 816E 816F 82EF 82F0 86EF 856F 856E 856E 856E 898C 898D 832C
+        8D6D 8D6C 896C 896C 818E 8594 80FF 828F 80FF 8194 858E 896C 896C 896C 896D 832C
+        832C 832C 832C 832C 8D8D 8D8C 856E 856E 856E 898C 898D 832C 832C 832C 832C 832C
+        832C 832C 832C 832C 8D6D 8D6C 896C 896C 896C 896C 896D 832C 832C 832C 832C 832C
+        832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C
+        832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C 832C
+      </Screen>
+        </Layer1>
+        <BTS>
+          <Screen X="0" Y="0">
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 D2 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 41 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 FD 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      </Screen>
+        </BTS>
+        <Layer2>
+          <Screen X="0" Y="0">
+        0232 0233 0292 0293 0296 0297 02B4 0295 0254 0255 0256 0257 02D2 02D3 02B2 02B3
+        0252 0253 02B2 02B3 0275 02B7 0292 0293 02B7 0275 0292 0293 0276 0277 0275 0294
+        0272 0273 0275 02D4 0295 02B6 02B2 02B3 02B6 0295 02B2 02B3 0296 0297 0295 02B4
+        02D3 0294 0295 0232 0233 02B7 02D2 02D3 02B7 0294 02D4 02D4 0294 0232 0233 02D2
+        02D4 02B4 02B7 0252 0253 0234 0235 0236 0237 02B4 0232 0233 02B4 0252 0253 02B7
+        0293 0275 02B6 0272 0273 0254 0255 0256 0257 02D4 0252 0253 0275 0272 0273 02B6
+        02B3 0295 02B7 0232 0233 02B7 02D4 0292 0293 0275 0272 0273 0295 02D2 02D3 02B7
+        0235 0236 0237 0252 0253 02B6 0275 02B2 02B3 0295 02D4 02B7 0276 0277 0294 0234
+        0255 0256 0257 0272 0273 02B7 0295 02B7 02D4 02D2 02D3 02B7 0296 0297 02B4 0254
+        0292 0293 02B7 0276 0277 02D2 02D3 02B7 0276 0277 0292 0293 0275 0232 0233 02B7
+        02B2 02B3 02B6 0296 0297 02D4 0292 0293 0296 0297 02B2 02B3 0295 0252 0253 02B6
+        02D2 02D3 02B7 0275 0232 0233 02B2 02B3 02B7 0294 0275 0276 0277 0272 0273 02B7
+        0235 0236 0237 0295 0252 0253 0232 0233 02B7 02B4 0295 0296 0297 02D2 02D3 0234
+        0255 0256 0257 02D4 0272 0273 0252 0253 02B6 0292 0293 02B6 0275 0292 0293 0254
+        0294 0275 0292 0293 02D2 02D3 0272 0273 02B7 02B2 02B3 02B7 0295 02B2 02B3 02B7
+        02B4 0295 02B2 02B3 0276 0277 0294 0275 0234 0235 0236 0237 0292 0293 0294 02B6
+      </Screen>
+        </Layer2>
+      </LevelData>
+      <GFXset>26</GFXset>
+      <music>0000</music>
+      <FX1s>
+        <FX1 default="true">
+          <surfacestart>FFFF</surfacestart>
+          <surfacenew>FFFF</surfacenew>
+          <surfacespeed>0000</surfacespeed>
+          <surfacedelay>00</surfacedelay>
+          <type>00</type>
+          <transparency1_A>02</transparency1_A>
+          <transparency2_B>02</transparency2_B>
+          <liquidflags_C>00</liquidflags_C>
+          <paletteflags>00</paletteflags>
+          <animationflags>00</animationflags>
+          <paletteblend>00</paletteblend>
+        </FX1>
+      </FX1s>
+      <Enemies killcount="00" />
+      <EnemyTypes />
+      <layer2_type>Layer2</layer2_type>
+      <layer2_xscroll>00</layer2_xscroll>
+      <layer2_yscroll>00</layer2_yscroll>
+      <ScrollData const="0000" />
+      <roomvar>0001</roomvar>
+      <FX2>0000</FX2>
+      <PLMs>
+        <PLM>
+          <type>EF7F</type>
+          <x>0D</x>
+          <y>06</y>
+          <arg>007E</arg>
+        </PLM>
+        <PLM>
+          <type>C878</type>
+          <x>01</x>
+          <y>06</y>
+          <arg>00A0</arg>
+        </PLM>
+        <PLM>
+          <type>FF70</type>
+          <x>00</x>
+          <y>00</y>
+          <arg>045C</arg>
+        </PLM>
+      </PLMs>
+      <BGData />
+      <layer1_2>91D3</layer1_2>
+    </State>
+  </States>
+</Room>

@@ -1,0 +1,9 @@
+ROMProject/quickmet.xml
+
+*.bak
+*.smc
+*.srm
+
+~*
+
+*.sym

@@ -1,0 +1,9 @@
+<EnemyInfo>
+  <Name>Ice Geruda</Name>
+  <Description>
+    No configurable properties
+  </Description>
+  <Speed1 />
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>

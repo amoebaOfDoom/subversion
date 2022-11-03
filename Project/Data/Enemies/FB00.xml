@@ -1,0 +1,52 @@
+<EnemyInfo>
+  <Name>Nami Special</Name>
+  <Description>
+    Face enemy attatched to the wall that shoots fireballs. If the enemy has eyes, then it will fire continuously as long as Samus is within the vertical proximity. If the enemy does not have eyes, it will fire at a the specified rate.
+
+    The fireball speed uses a look up table at $86:DEB6. It is a list of 8 pairs of words. The the two words in the pair should be the same number, but the first is negative and the second is positive. The units are in 1/256th of a pixel per frame.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Eyed</Name>
+      <Description>If eyed, the enemy will fire when Samus is in the proximity range. If not, the enemy will instead fire at the fire rate parameter.</Description>
+      <Mask>0x0001</Mask>
+    </Property>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Facing direction.</Description>
+      <Mask>0x00F0</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Left"/>
+        <NameValue Value="1" Name="Right"/>
+      </NameValues>
+    </Property>
+    <Property>
+      <Name>Fire Rate</Name>
+      <Description>Number of frames to wait between each fireball (plus the additional animation time). This parameter is only used if the enemy does not have an eye.</Description>
+      <Mask>0xFF00</Mask>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Proximity</Name>
+      <Description>Range in vertical pixels that the enemy will be triggered to fire. This parameter is only used if the enemy has an eye.</Description>
+      <Mask>0xFF00</Mask>
+    </Property>
+    <Property>
+      <Name>Fireball Speed</Name>
+      <Description>Speed of the fireball projectiles.</Description>
+      <Mask>0x00FF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="1/4 px/frame"/>
+        <NameValue Value="1" Name="1/2 px/frame"/>
+        <NameValue Value="2" Name="3/4 px/frame"/>
+        <NameValue Value="3" Name="1 px/frame"/>
+        <NameValue Value="4" Name="1 1/4 px/frame"/>
+        <NameValue Value="5" Name="1 1/2 px/frame"/>
+        <NameValue Value="6" Name="1 3/4 px/frame"/>
+        <NameValue Value="7" Name="2 px/frame"/>
+      </NameValues>
+    </Property>
+  </Speed2>    
+  <Tilemap />
+</EnemyInfo>

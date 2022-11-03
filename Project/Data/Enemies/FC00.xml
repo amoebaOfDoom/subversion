@@ -1,0 +1,79 @@
+<EnemyInfo>
+  <Name>Mop</Name>
+  <Description>
+    A blue orb crawler that moves along the wall following the room geometry. If the room is shaking then they will fall off the wall/ceiling. A lot of the crawling enemies share the same code. If it is placed on the ceiling with no speed, it will immediately fall. But if it is partially embedded into the ceiling, it will stay in place and still fall if the room shakes. 
+
+    If the speed is set to "Move after Falling", its speed is set by the value at $A3:E7A0. Units is 1/256th px/frame. This value is shared with the other crawling enemies.
+
+    Vanilla sets the the unused parameter, but it it overridden in the initialization code anyways.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Speed</Name>
+      <Description>Move speed of enemy. Table located at A3:E5F0. Shared with the other crawling enemies.</Description>
+      <Mask>0xFFFF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="1/4 px/frame"/>
+        <NameValue Value="1" Name="1/2 px/frame"/>
+        <NameValue Value="2" Name="3/4 px/frame"/>
+        <NameValue Value="3" Name="1 px/frame"/>
+        <NameValue Value="4" Name="1 1/4 px/frame"/>
+        <NameValue Value="5" Name="1 1/2 px/frame"/>
+        <NameValue Value="6" Name="1 3/4 px/frame"/>
+        <NameValue Value="7" Name="2 px/frame"/>
+        <NameValue Value="8" Name="2 1/4 px/frame"/>
+        <NameValue Value="9" Name="2 1/2 px/frame"/>
+        <NameValue Value="10" Name="2 3/4 px/frame"/>
+        <NameValue Value="11" Name="3 px/frame"/>
+        <NameValue Value="12" Name="3 1/4 px/frame"/>
+        <NameValue Value="13" Name="3 1/2 px/frame"/>
+        <NameValue Value="14" Name="4 px/frame"/>
+        <NameValue Value="15" Name="4 1/4 px/frame"/>
+        <NameValue Value="16" Name="5 1/4 px/frame"/>
+        <NameValue Value="17" Name="5 1/2 px/frame"/>
+        <NameValue Value="18" Name="5 3/4 px/frame"/>
+        <NameValue Value="19" Name="6 px/frame"/>
+        <NameValue Value="20" Name="6 1/4 px/frame"/>
+        <NameValue Value="21" Name="6 1/2 px/frame"/>
+        <NameValue Value="22" Name="6 3/4 px/frame"/>
+        <NameValue Value="23" Name="7 px/frame"/>
+        <NameValue Value="24" Name="7 1/4 px/frame"/>
+        <NameValue Value="25" Name="7 1/2 px/frame"/>
+        <NameValue Value="26" Name="7 3/4 px/frame"/>
+        <NameValue Value="27" Name="8 px/frame"/>
+        <NameValue Value="28" Name="8 1/4 px/frame"/>
+        <NameValue Value="29" Name="8 1/2 px/frame"/>
+        <NameValue Value="30" Name="8 px/frame"/>
+        <NameValue Value="31" Name="0 px/frame"/>
+        <NameValue Value="255" Name="Move after Falling"/>
+      </NameValues>
+    </Property>
+  </Speed1>
+  <Speed2 />
+  <Tilemap>
+    <Property>
+      <Name>Orientation</Name>
+      <Description>Initial orientation to face.</Description>
+      <Mask>0xFFFF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Left Wall"/>
+        <NameValue Value="1" Name="Right Wall"/>
+        <NameValue Value="2" Name="Ceiling"/>
+        <NameValue Value="3" Name="Floor"/>
+      </NameValues>
+    </Property>
+  </Tilemap>
+  <Special>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Initial direction to move. This is based on the orientation the enemy moves, whether horizontal or vertical.</Description>
+      <Mask>0x0003</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Left/Down"/>
+        <NameValue Value="1" Name="Right/Down"/>
+        <NameValue Value="2" Name="Right/Up"/>
+        <NameValue Value="3" Name="Right/Down"/>
+      </NameValues>
+    </Property>    
+  </Special>
+</EnemyInfo>

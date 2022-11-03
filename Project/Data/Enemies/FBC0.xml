@@ -1,0 +1,34 @@
+<EnemyInfo>
+  <Name>Autrack</Name>
+  <Description>
+    Mechanical enemy that raises it's head if Samus is near by and fires.
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Which direction this enemy faces.</Description>
+      <Mask>0x0001</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Left"/>
+        <NameValue Value="1" Name="Right"/>
+      </NameValues>
+    </Property>
+    <Property>
+      <Name>Laser speed</Name>
+      <Description>Fast lasers like the MB version, or slow ones like the (blocking) pirate version.</Description>
+      <Mask>0x8000</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Fast"/>
+        <NameValue Value="1" Name="Slow"/>
+      </NameValues>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>X activation radius</Name>
+      <Description>Pixels from the center of the enemy to detect Samus in and start firing.</Description>
+      <Mask>0xFFFF</Mask>
+    </Property>
+  </Speed2>
+  <Tilemap />
+</EnemyInfo>

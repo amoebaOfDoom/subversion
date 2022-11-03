@@ -1,0 +1,9 @@
+<EnemyInfo>
+  <Name>Egg Shield</Name>
+  <Description>
+    Spawned by Super Torizo
+  </Description>
+  <Speed1 />
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>

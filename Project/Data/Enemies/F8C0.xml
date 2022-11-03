@@ -1,0 +1,42 @@
+<EnemyInfo>
+  <Name>Rotor Control</Name>
+  <Description>
+    Eenmy that is used to rotate mirrors
+  </Description>
+  <Speed1>
+    <Property>
+      <Name>Mirror X</Name>
+      <Description>Mirror tile X position</Description>
+      <Mask>0x00FF</Mask>
+    </Property>
+  </Speed1>
+  <Speed2>
+    <Property>
+      <Name>Mirror Y</Name>
+      <Description>Mirror tile Y position</Description>
+      <Mask>0x00FF</Mask>
+    </Property>
+    <Property>
+      <Name>Full Rotation</Name>
+      <Description>Enables full rotation of mirror. Will use 2 event bits instead of 1.</Description>
+      <Mask>0x8000</Mask>
+    </Property>
+    <Property>
+      <Name>Direction</Name>
+      <Description>Direction of rotation.</Description>
+      <Mask>0x1800</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Counter Clockwise"/>
+        <NameValue Value="1" Name="Clockwise"/>
+        <NameValue Value="2" Name="Flip"/>
+      </NameValues>
+    </Property>
+  </Speed2>
+  <Tilemap>
+    <Property>
+      <Name>Event ID</Name>
+      <Description>Event ID to store rotation state. If full rotation mode is set, this will use 2 bits instead of 1.</Description>
+      <Mask>0xFFFF</Mask>
+    </Property>
+  </Tilemap>
+</EnemyInfo>

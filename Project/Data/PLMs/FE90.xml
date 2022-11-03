@@ -1,0 +1,25 @@
+<PLMInfo>
+  <Name>Laser</Name>
+  <Properties>
+  	<Property>
+	  <Name>Active</Name>
+	  <Description>Initial laser activation state.</Description>
+	  <Mask>0x8000</Mask>
+	  <NameValues>
+        <NameValue Value="0" Name="True" />
+        <NameValue Value="1" Name="False" />
+      </NameValues>
+	</Property>
+  	<Property>
+	  <Name>Direction</Name>
+	  <Description>Direction the laser fires in.</Description>
+	  <Mask>0x0003</Mask>
+	  <NameValues>
+        <NameValue Value="0" Name="Right" />
+        <NameValue Value="1" Name="Up" />
+        <NameValue Value="2" Name="Left" />
+        <NameValue Value="3" Name="Down" />
+      </NameValues>	  
+	</Property>
+  </Properties>  
+</PLMInfo>

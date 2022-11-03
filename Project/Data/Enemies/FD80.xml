@@ -1,0 +1,9 @@
+<EnemyInfo>
+  <Name>Super Torizo</Name>
+  <Description>
+    No configurable properties
+  </Description>
+  <Speed1 />
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>

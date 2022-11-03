@@ -1,0 +1,15 @@
+<PLMInfo>
+  <Name>Space Jump Boost</Name>
+  <Properties>
+  	<Property>
+	  <Name>Always Respawn</Name>
+	  <Description>Ignores the item ID and it will always respawns on room load.</Description>
+	  <Mask>0x8000</Mask>
+	</Property>
+  	<Property>
+	  <Name>Item ID</Name>
+	  <Description>Unique ID for the item to save that when it is collected.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>
+  </Properties>  
+</PLMInfo>

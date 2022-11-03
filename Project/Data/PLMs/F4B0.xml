@@ -1,0 +1,15 @@
+<PLMInfo>
+  <Name>Timed Block PLM</Name>
+  <Properties>
+  	<Property>
+	  <Name>Solid Period</Name>
+	  <Description>Number of frames the PLM will be solid. The BTS value determins the cycle offset.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>
+  	<Property>
+	  <Name>Air Period</Name>
+	  <Description>Number of frames the PLM will be air. The BTS value determins the cycle offset.</Description>
+	  <Mask>0xFF00</Mask>
+	</Property>
+  </Properties>  
+</PLMInfo>

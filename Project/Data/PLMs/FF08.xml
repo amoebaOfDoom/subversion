@@ -1,0 +1,10 @@
+<PLMInfo>
+  <Name>Zebetite</Name>
+  <Properties>
+  	<Property>
+	  <Name>Door index</Name>
+	  <Description>Unique ID for the door to save that the zebitite has been destroyed.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>
+  </Properties>
+</PLMInfo>

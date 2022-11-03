@@ -1,0 +1,9 @@
+<EnemyInfo>
+  <Name>Genron</Name>
+  <Description>
+    Requires Ice+missiles to kill.
+  </Description>
+  <Speed1 />
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>

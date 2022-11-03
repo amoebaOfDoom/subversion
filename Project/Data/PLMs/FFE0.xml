@@ -1,0 +1,15 @@
+<PLMInfo>
+  <Name>Secret Door</Name>
+  <Properties>
+  	<Property>
+	  <Name>Always Respawn</Name>
+	  <Description>Ignores the door ID and door always respawns on room load.</Description>
+	  <Mask>0x8000</Mask>
+	</Property>
+  	<Property>
+	  <Name>Door ID</Name>
+	  <Description>Unique ID for the door to save that it had been opened.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>	
+  </Properties>
+</PLMInfo>

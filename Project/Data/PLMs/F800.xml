@@ -1,0 +1,40 @@
+<PLMInfo>
+  <Name>Dark Room</Name>
+  <Properties>
+    <Property>
+      <Name>Thermal</Name>
+      <Description>Active only when thermal is on or off.</Description>
+      <Mask>0x0080</Mask>
+    </Property>
+    <Property>
+      <Name>Darken</Name>
+      <Description>Effect will brighten or darken.</Description>
+      <Mask>0x8000</Mask>
+    </Property>
+    <Property>
+      <Name>Layer 2</Name>
+      <Description>Apply to layer 2.</Description>
+      <Mask>0x0200</Mask>
+    </Property>
+    <Property>
+      <Name>Layer 1</Name>
+      <Description>Apply to layer 1.</Description>
+      <Mask>0x0100</Mask>
+    </Property>
+    <Property>
+      <Name>Base</Name>
+      <Description>Base amount of value. Killing a fireflea will increase this value by 2 at a soft cap of 0x0E. This can be set to a max of 0x1F.</Description>
+      <Mask>0x7C00</Mask>
+    </Property>
+    <Property>
+      <Name>Glow Range</Name>
+      <Description>Maximum glow amount to add to the base.</Description>
+      <Mask>0x0070</Mask>
+    </Property>
+    <Property>
+      <Name>Glow Speed</Name>
+      <Description>Number of frames between each flow update.</Description>
+      <Mask>0x000F</Mask>
+    </Property>
+  </Properties>  
+</PLMInfo>

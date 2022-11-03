@@ -1,0 +1,22 @@
+<EnemyInfo>
+  <Name>Ceres Door</Name>
+  <Description>Door sprites found in Ceres that open when samus approaches it.</Description>
+  <Speed1>
+    <Property>
+      <Name>Type</Name>
+      <Description>Type of door. The Escape version of the doors lock during the Ceres escape, but they don't render when they lock. The "Exploding Overlay" can be used together with the Escape door to have the visuals, but it only works in Mode 7.</Description>
+      <Mask>0xFFFF</Mask>
+      <NameValues>
+        <NameValue Value="0" Name="Facing Right"/>
+        <NameValue Value="1" Name="Facing Left"/>
+        <NameValue Value="2" Name="Exploding Overlay"/>
+        <NameValue Value="3" Name="Ridley Room"/>
+        <NameValue Value="4" Name="Facing Left (Escape)"/>
+        <NameValue Value="7" Name="Facing Right (Locked)"/>
+        <NameValue Value="8" Name="Facing Left (Locked)"/>
+      </NameValues>
+    </Property>
+  </Speed1>
+  <Speed2 />
+  <Tilemap />
+</EnemyInfo>
