@@ -199,6 +199,14 @@ warnpc $90EA44
 
 Padbyte $FF : pad $90EA45
 
+org $9BB932
+  LDX $12
+  LDA $A00006,x
+  STA $12
+  JSL ApplySuitModifier_2
+  LDA $12
+Padbyte $EA : pad $9BB950
+
 org $A0A45E
   STA $12
   JSL ApplySuitModifier_2

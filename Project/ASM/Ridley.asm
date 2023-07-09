@@ -1,5 +1,11 @@
 lorom
 
+org $86932F
+  LDA $079F
+  CMP #$0004
+  BEQ $0F
+  CMP #$0003
+
 org $A6A15C
   LDA $079F
   CMP #$0004
